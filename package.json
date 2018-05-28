@@ -1,0 +1,30 @@
+{
+  "name": "exchange-rate-cli",
+  "version": "1.0.0",
+  "description": "Get currency exchange rate",
+  "main": "cli.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekimsit/exchange-rate-cli.git"
+  },
+  "keywords": [
+    "finance",
+    "currency",
+    "exchange",
+    "money",
+    "conversion"
+  ],
+  "author": "vivekimsit@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vivekimsit/exchange-rate-cli/issues"
+  },
+  "homepage": "https://github.com/vivekimsit/exchange-rate-cli#readme",
+  "dependencies": {
+    "ava": "^0.25.0",
+    "xo": "^0.21.1"
+  }
+}
