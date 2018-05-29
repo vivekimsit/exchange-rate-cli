@@ -4,11 +4,22 @@
 
 ## Install
 
-TODO
+```
+$ npm install --global exchange-rate-cli
+```
 
 ## Usage
 
-TODO
+```
+$ exchange-rate --help
+
+  Usage
+    $ cpy <source> <target>
+
+  Examples
+    Convert unit GBP into an equivalent amount of EUR
+    $ cpy GBP EUR
+```
 
 ## Related
 
