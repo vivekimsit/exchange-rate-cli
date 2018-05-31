@@ -24,7 +24,11 @@
   },
   "homepage": "https://github.com/vivekimsit/exchange-rate-cli#readme",
   "dependencies": {
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {
     "ava": "^0.25.0",
+    "execa": "^0.10.0",
     "xo": "^0.21.1"
   }
 }
