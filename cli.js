@@ -1,15 +1,22 @@
 #!/usr/bin/env node
 'use strict';
 
-//const exchange = require('exchange-rate');
+const createExchange = require('node-exchange-rate');
 const meow = require('meow');
 
 const cli = meow(`
   Usage
-    $ exchange-rate <source> <target>
+    $ exchange-rate-cli <source> <target>
   Examples
-    $ cpy EUR GBP
+    $ exchange-rate-cli EUR GBP
 `);
 
-const [source, target, ..._] = cli.input;
-console.log(source, target);
+async function run() {
+  const source = cli.input[0];
+  const target = cli.input[1];
+  const exchange = createExchange();
+  const {rate} = await exchange.convert({source, target});
+  console.log(rate);
+}
+
+run();
