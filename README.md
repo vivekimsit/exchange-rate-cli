@@ -14,11 +14,11 @@ $ npm install --global exchange-rate-cli
 $ exchange-rate --help
 
   Usage
-    $ exchange-rate-cli <source> <target>
+    $ exchange-rate <source> <target>
 
   Examples
     Convert unit GBP into an equivalent amount of EUR
-    $ exchange-rate-cli GBP EUR
+    $ exchange-rate GBP EUR
 ```
 
 ## Related

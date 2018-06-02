@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/vivekimsit/exchange-rate-cli.git"
   },
+  "bin": {
+    "exchange-rate": "cli.js"
+  },
   "keywords": [
     "finance",
     "currency",
